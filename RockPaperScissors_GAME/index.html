@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors - GAME</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Challenge: Rock, Paper, Scissors</h1>
+            <div class="flex-box-rps">
+                <img id="rock" src="images/rock.png" onclick="MyChoice(this)">
+                <img id="paper" src="images/paper.png" onclick="MyChoice(this)" width="225px" height="225px">
+                <img id="scissors" src="images/scissors.png" onclick="MyChoice(this)">
+            </div><!--flex-box-rps-->
+            <div class="button">
+                <button class='btn btn-primary' onclick="reset()">
+                    Play Again!
+                </button>
+            </div>
+        </div><!--container-->
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

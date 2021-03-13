@@ -1,0 +1,22 @@
+.container{
+    text-align:center;
+}
+.container h1{
+    padding:2%;
+}
+.flex-box-rps{
+    margin:0 auto;
+    text-align:center;
+    display:flex;
+    justify-content:space-around;
+    flex-flow:wrap;
+}
+.flex-box-rps img:hover{
+    box-shadow:0 0 10px 10px rgba(2, 118, 252, 0.7);
+}
+.button{
+    padding:5%;
+}
+.button button{
+    font-size:20px;
+}
